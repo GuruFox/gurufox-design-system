@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# GurūFox Design System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dark-themed React component library built on atomic design principles.
+Designed and built by Kathlene de Vos.
 
-## Available Scripts
+🔗 Live demo: coming soon
+🎨 Figma: coming soon
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+A scalable, accessible React component library with design tokens as the foundation and components organised by atomic design principles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+src/
+├── tokens/          # Design tokens: colors, typography, spacing, shadows
+├── components/
+│   ├── atoms/       # Smallest building blocks
+│   │   ├── Button   # 4 variants, 3 sizes, loading + disabled states
+│   │   ├── Badge    # 5 variants, dot indicator
+│   │   ├── Input    # Labels, helper text, error states, icons
+│   │   ├── Avatar   # Image, initials fallback, status indicators
+│   │   └── Toggle   # 3 sizes, on/off/disabled
+│   └── molecules/   # Composed from atoms
+│       ├── Card     # 4 variants including interactive
+│       ├── Alert    # 4 variants, dismissible
+│       ├── Modal    # Animated, keyboard accessible, scroll lock
+│       └── Tooltip  # 4 positions
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+npm start
 
-### `npm run build`
+Open http://localhost:3000 to view the component showcase.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Design Tokens
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All visual decisions live in src/tokens/index.js and should be mirrored as variables in Figma.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Token | Description |
+|---|---|
+| colors | Brand, neutral, and semantic color scales |
+| typography | Font families, sizes, weights, line heights |
+| spacing | 4px-based spacing scale |
+| borderRadius | Corner radius values |
+| shadows | Elevation and glow effects |
+| transitions | Animation timing values |
+| zIndex | Layering scale |
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Atoms
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Component | Variants | Description |
+|---|---|---|
+| Button | primary, secondary, ghost, danger | 3 sizes, loading, disabled |
+| Badge | default, success, warning, error, info | Optional dot indicator |
+| Input | default, error, disabled | Labels, helper text, icons |
+| Avatar | circle, square | 5 sizes, status indicators |
+| Toggle | sm, md, lg | On/off switch with label |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Molecules
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Component | Variants | Description |
+|---|---|---|
+| Card | default, elevated, outlined, interactive | Header, Body, Footer slots |
+| Alert | success, warning, error, info | Dismissible option |
+| Modal | sm, md, lg, fullscreen | Keyboard accessible, scroll lock |
+| Tooltip | top, bottom, left, right | Hover display |
 
-## Learn More
+## Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React 18
+- styled-components
+- Atomic Design methodology
+- Inter font
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Kathlene de Vos
+dribbble.com/Kathlene_de_Vos | github.com/Kathydv | medium.com/@kathy.range

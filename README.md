@@ -3,7 +3,7 @@
 A dark-themed React component library built on atomic design principles.
 Designed and built by Kathlene de Vos.
 
-🔗 Live demo: coming soon
+🔗 Live demo: https://gurufox.github.io/gurufox-design-system
 🎨 Figma: coming soon
 
 ## Overview
@@ -79,4 +79,4 @@ All visual decisions live in src/tokens/index.js and should be mirrored as varia
 ## Author
 
 Kathlene de Vos
-dribbble.com/Kathlene_de_Vos | github.com/Kathydv | medium.com/@kathy.range
+https://dribbble.com/GuruFox | https://github.com/GuruFox | https://medium.com/@guru-fox

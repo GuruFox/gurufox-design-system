@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gurufox-design-system/static/css/main.f855e6bc.css",
+    "main.js": "/gurufox-design-system/static/js/main.d7d171a7.js",
+    "static/js/453.1f7f717f.chunk.js": "/gurufox-design-system/static/js/453.1f7f717f.chunk.js",
+    "static/media/logo.svg": "/gurufox-design-system/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/gurufox-design-system/index.html",
+    "main.f855e6bc.css.map": "/gurufox-design-system/static/css/main.f855e6bc.css.map",
+    "main.d7d171a7.js.map": "/gurufox-design-system/static/js/main.d7d171a7.js.map",
+    "453.1f7f717f.chunk.js.map": "/gurufox-design-system/static/js/453.1f7f717f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d7d171a7.js"
+  ]
+}
